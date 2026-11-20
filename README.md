@@ -1,6 +1,6 @@
 # Bhavya Mummaneni
 
-**Senior AI Engineer** · San Antonio, TX, USA · Open to relocation anywhere in the US
+**AI Engineer** · San Antonio, TX, USA · Open to relocation anywhere in the US
 
 AI/ML Engineer with 7+ years of experience building production machine learning and Generative AI systems — LLM applications, retrieval-augmented generation (RAG), and AI agents — in regulated, security-sensitive enterprise environments. My employer work is proprietary, so this page focuses on my personal projects and general background. The specifics of my professional work — outcomes, scale, and project detail — belong in my resume and in interviews, not on a public page.
 
