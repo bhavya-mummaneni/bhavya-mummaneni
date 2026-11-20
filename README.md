@@ -19,7 +19,11 @@ AI/ML Engineer with 7+ years of experience building production machine learning 
 - **Results (sample data):** a 15-question evaluation — 100% retrieval hit rate and 100% answer accuracy.
 - **Limitations:** generation is extractive because the project runs without an LLM API key; the design lets an LLM swap in without changing the API or UI.
 
-More projects are in progress, including a LangGraph agent with tool calling and an evaluation harness.
+**[LangGraph Agent](https://github.com/bhavya-mummaneni/langgraph-agent)** — working code
+- **Problem:** an agent that plans multi-step tasks, calls tools in sequence, and refuses out-of-scope requests.
+- **Approach:** a LangGraph state graph (guardrail → plan → execute → respond) with three tools — document lookup with citations, a calculator, and data queries over a sample dataset — each wrapped with retries and per-call latency logging; structured outputs throughout.
+- **Results (sample data):** a 15-task evaluation — 15/15 passed, including chained multi-step tasks, an expected refusal, and an error-handling case.
+- **Limitations:** the planner is deterministic because the project runs without an LLM API key; an LLM planner can swap in behind the same interface.
 
 ## Experience
 
